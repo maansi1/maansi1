@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=230&section=header&text=Maansi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Java%20Backend%20Developer%20%7C%20OOP%20%7C%20Spring%20Boot&descAlignY=60" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=230&section=header&text=Maansi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Java%20Backend%20Developer%20%7C%20Full%20Stack%20Learner&descAlignY=60" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&center=true&vCenter=true&width=900&lines=Java+Backend+Developer;OOP+%7C+DSA+%7C+Problem+Solving;Spring+Boot+%7C+REST+APIs;Building+Projects+Daily+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&center=true&vCenter=true&width=900&lines=Java+Backend+Developer;Full+Stack+Developer+in+Progress;OOP+%7C+DSA+%7C+Problem+Solving;Spring+Boot+%7C+Node+%7C+React;Building+Projects+Daily+%F0%9F%9A%80" />
 </p>
 
 <p align="center">
@@ -20,17 +20,34 @@
 
 ## 👩‍💻 About Me
 
-- 💻 Java Backend Developer (in progress)  
-- 🧠 Strong in OOP: Abstraction, Inheritance, Polymorphism, Encapsulation  
-- 🌱 Learning Spring Boot, REST APIs & MySQL  
-- 🎯 Goal: Backend Engineer  
+- 💻 Java Backend Developer  
+- 🌐 Exploring Full Stack Development  
+- 🧠 Strong foundation in OOP & DSA  
+- ☁️ Learning Cloud & System Design  
+- 🎯 Goal: Software Engineer (Backend / Full Stack)
 
 ---
 
 ## 🧰 Tech Stack
 
+### 🚀 Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,git,github,vscode,eclipse" />
+  <img src="https://skillicons.dev/icons?i=java,js,c,cpp,kotlin,php" />
+</p>
+
+### 🌐 Frontend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,react" />
+</p>
+
+### 🔧 Backend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,spring" />
+</p>
+
+### ☁️ Cloud & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,mysql,git,github,vscode,eclipse" />
 </p>
 
 ---

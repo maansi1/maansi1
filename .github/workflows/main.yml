@@ -11,16 +11,16 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Generate snake
+      - name: Generate snake (light + dark)
         uses: Platane/snk@v3
         with:
           github_user_name: maansi1
           outputs: |
+            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push snake
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output

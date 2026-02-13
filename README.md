@@ -54,6 +54,12 @@
 </p>
 
 ---
+## 📊 GitHub Overview
+
+<p align="center">
+  <img src="github-metrics.svg" />
+</p>
+
 
 ## 🏆 Trophies
 

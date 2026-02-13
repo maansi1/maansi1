@@ -40,32 +40,35 @@
 
 ---
 
-## 📈 GitHub Analytics (Auto Theme)
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=default&hide_border=true#gh-light-mode-only)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=tokyonight&hide_border=true#gh-dark-mode-only)
+## 📊 GitHub Analytics
 
-![GitHub Streak](https://streak-stats.demolab.com?user=maansi1&theme=default&hide_border=true#gh-light-mode-only)
-![GitHub Streak](https://streak-stats.demolab.com?user=maansi1&theme=tokyonight&hide_border=true#gh-dark-mode-only)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maansi1&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=maansi1&theme=tokyonight&hide_border=true" height="170"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=default&hide_border=true#gh-light-mode-only)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=tokyonight&hide_border=true#gh-dark-mode-only)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maansi1&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
 
 ---
 
-## 🏆 Trophies (Auto Theme)
+## 🏆 Trophies
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=maansi1&theme=flat&no-frame=true&row=1&column=7#gh-light-mode-only)
-![Trophies](https://github-profile-trophy.vercel.app/?username=maansi1&theme=onedark&no-frame=true&row=1&column=7#gh-dark-mode-only)
-
----
-
-## 🐍 Contribution Snake (Auto Theme)
-
-![Snake](https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-![Snake](https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=maansi1&theme=onedark&no-frame=true&row=1&column=7" />
+</p>
 
 ---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maansi1/maansi1/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
 
 ## 📊 Activity Graph (Auto Theme)
 

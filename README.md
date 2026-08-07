@@ -21,27 +21,7 @@
 <!-- ================= ABOUT ================= -->
 <p align="center"><img src="./assets/header-about-me.svg" width="55%" /></p>
 
-```bash
-$ cat about_me.txt
-
-  name        : Maansi
-  role        : Full-Stack Developer (Web + Android)
-  focus       : shipping polished, production-shaped side projects
-  philosophy  : "Pick the right stack for the problem, not the comfortable one."
-
-  currently_building:
-    -> Meridian Assurance : full insurance management platform
-                             (Java 21 + Spring Boot + React + PostgreSQL)
-    -> Smart Patient Health Tracker : Android app with AI triage
-                             + emergency support, multi-role portals
-
-  interests:
-    -> Full-stack architecture across MERN / Spring Boot / Kotlin / Laravel
-    -> AI-assisted tooling — code review, research agents, health triage
-    -> Interface polish: bento grids, motion, dark-mode-first design
-
-$ _
-```
+<p align="center"><img src="./assets/about-panel.svg" width="96%" alt="About Me terminal panel" /></p>
 
 <img src="./assets/divider.svg" width="100%" />
 
@@ -80,95 +60,60 @@ $ _
 
 <img src="./assets/divider.svg" width="100%" />
 
-<!-- ================= FEATURED PROJECTS — HTOP STYLE PROCESS MONITOR ================= -->
+<!-- ================= FEATURED PROJECTS — HACKER DASHBOARD ================= -->
 <p align="center"><img src="./assets/header-featured-systems.svg" width="60%" /></p>
 
-<p align="center"><sub>$ ps aux --sort=-relevance &nbsp;·&nbsp; live snapshot of what's actively being built</sub></p>
+<p align="center"><sub>$ ps aux --sort=-relevance &nbsp;·&nbsp; live snapshot of real GitHub projects, shipped work, and active builds</sub></p>
 
-```
-  PID   PROJECT                          STACK                              STAT   PROGRESS
-  ────  ───────────────────────────────  ─────────────────────────────────  ─────  ─────────────────
-  0113  meridian-assurance               Java21·SpringBoot·React·Postgres   RUN    ██████████░░░░  72%
-        └─ full LIC-style insurance platform · bento-grid dark UI · 3D motion accents
+<p align="center"><img src="./assets/process-monitor.svg" width="96%" alt="Featured projects process monitor" /></p>
 
-  0092  smart-patient-health-tracker     Kotlin·Android·Firebase·AI         RUN    █████████████░  91%
-        └─ AI triage + emergency support · multi-role portals · submission-ready
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22C55E?style=for-the-badge&labelColor=0B0B0E" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-0EA5E9?style=for-the-badge&labelColor=0B0B0E" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-FFB000?style=for-the-badge&labelColor=0B0B0E" />
+  <img src="https://img.shields.io/badge/STACK-FULL__STACK-7C3AED?style=for-the-badge&labelColor=0B0B0E" />
+</p>
 
-  0071  ai-investment-research-agent     LangGraph.js·Gemini·Node·Recharts  SLEEP  ██████████████  100%
-        └─ 7-node research pipeline · Tavily search · Finnhub live data · PDF export
-
-  0064  ai-code-review-assistant         SpringBoot·React·OpenAI·Neon       SLEEP  ██████████████  100%
-        └─ JWT auth · async review pipeline · Checkstyle/PMD static analysis
-
-  0050  shared-expenses-tracker          Node·TS·Prisma·Postgres·React      SLEEP  ██████████████  100%
-        └─ CSV import + anomaly detection · greedy debt simplification engine
-
-  0037  bugforge-assessment              Next.js·Express·MongoDB            ZOMB   ██████████████  100%
-        └─ 9 defects patched — security, access control, deploy config
-```
-
-<table align="center">
+<table>
 <tr>
-<td width="50%" valign="top">
-
-```
-$ tail -f meridian-assurance.log
-```
-**🛡️ Meridian Assurance**
-Full-stack insurance management platform modeled on a real insurer's product line.
-- Java 21 + Spring Boot backend, React front end
-- Bento-grid dark UI with 3D motion accents
-- Multi-product policy, claims & agent workflows
-
-`Java 21` `Spring Boot` `React` `PostgreSQL`
-
-</td>
-<td width="50%" valign="top">
-
-```
-$ tail -f health-tracker.log
-```
-**🩺 Smart Patient Health Tracker**
-Android app pairing everyday vitals tracking with AI-assisted triage.
-- AI-driven symptom triage & emergency support
-- Multi-role portals (patient / caregiver / responder)
-- Submission-ready product documentation
-
-`Kotlin` `Android` `Firebase` `AI`
-
-</td>
+<td><strong>01</strong></td>
+<td><a href="https://github.com/maansi1/Smart-Health-Tracker"><strong>Smart Health Tracker with AI & Emergency Support</strong></a><br/><sub>Kotlin · Jetpack Compose · Room · MVVM</sub></td>
+<td><img src="https://img.shields.io/badge/health-tracker-22C55E?style=flat-square&labelColor=0B0B0E" /></td>
+<td>AI health assistant, reminders, SOS support, and health analytics.</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-```
-$ tail -f research-agent.log
-```
-**📈 AI Investment Research Agent**
-7-node LangGraph.js pipeline built for an AI Labs internship assignment.
-- Gemini 2.5 Flash reasoning, Tavily web search
-- Live market data via Finnhub, Recharts visuals
-- PDF export + side-by-side company comparison
-
-`LangGraph.js` `Gemini` `Node.js` `Recharts`
-
-</td>
-<td width="50%" valign="top">
-
-```
-$ tail -f code-review-assistant.log
-```
-**🔍 AI Code Review Assistant**
-Spring Boot + React review engine built for an internship assignment.
-- JWT auth, async review pipeline
-- Checkstyle / PMD / JavaParser static analysis
-- OpenAI-compatible review service, Neon deploy
-
-`Spring Boot` `React` `OpenAI API` `Neon`
-
-</td>
+<td><strong>02</strong></td>
+<td><a href="https://github.com/maansi1/EcoTrack-Smart-Waste-Segregation-Sanitization-Management-System"><strong>EcoTrack Smart Waste Segregation</strong></a><br/><sub>Laravel · Blade · PHP · CSS</sub></td>
+<td><img src="https://img.shields.io/badge/eco-system-10B981?style=flat-square&labelColor=0B0B0E" /></td>
+<td>Waste segregation and sanitization management with a clean Laravel stack.</td>
+</tr>
+<tr>
+<td><strong>03</strong></td>
+<td><a href="https://github.com/maansi1/Energy-Tracker---Sustainable-energy"><strong>Energy Tracker Frontend</strong></a><br/><sub>React · Vite · Tailwind CSS</sub></td>
+<td><img src="https://img.shields.io/badge/energy-dashboard-0EA5E9?style=flat-square&labelColor=0B0B0E" /></td>
+<td>Sustainable energy usage tracking with dashboards, roles, and reports.</td>
+</tr>
+<tr>
+<td><strong>04</strong></td>
+<td><a href="https://github.com/maansi1/LensCare"><strong>LensCare</strong></a><br/><sub>PHP · HTML · CSS · JavaScript</sub></td>
+<td><img src="https://img.shields.io/badge/vintage-web-FFB000?style=flat-square&labelColor=0B0B0E" /></td>
+<td>Older web application with multiple pages and a classic full-stack layout.</td>
+</tr>
+<tr>
+<td><strong>05</strong></td>
+<td><a href="https://github.com/maansi1/Memory_DB"><strong>Memory-DB</strong></a><br/><sub>Java · CLI · TTL cleanup</sub></td>
+<td><img src="https://img.shields.io/badge/in-memory-db-7C3AED?style=flat-square&labelColor=0B0B0E" /></td>
+<td>Command-line mini database with TTL expiry, cleanup, and control commands.</td>
+</tr>
+<tr>
+<td><strong>06</strong></td>
+<td><a href="https://github.com/maansi1/SocialMedia_Project"><strong>Social Media Backend API</strong></a><br/><sub>Spring Boot · PostgreSQL · JPA</sub></td>
+<td><img src="https://img.shields.io/badge/backend-api-EC4899?style=flat-square&labelColor=0B0B0E" /></td>
+<td>REST API for posts, comments, likes, and follower relationships.</td>
 </tr>
 </table>
+
+<p align="center"><sub>$ htop --featured-projects &nbsp;·&nbsp; real repo links are wired in, and the colors are there to make the section pop</sub></p>
 
 <img src="./assets/divider.svg" width="100%" />
 
@@ -180,12 +125,30 @@ Spring Boot + React review engine built for an internship assignment.
   <img width="380" height="165" src="https://streak-stats.demolab.com?user=maansi1&theme=dark&hide_border=true&mode=daily&card_width=350&cache_seconds=1800&background=0B0B0E&ring=FFB000&fire=FF7A00&currStreakLabel=FFB000" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img width="850" height="220" src="https://github-profile-trophy.vercel.app/?username=maansi1&theme=algolia&no-frame=true&no-bg=false&row=1&column=6&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://img.shields.io/badge/TROPHIES-UNLOCKED-FFB000?style=for-the-badge&logo=github&logoColor=0B0B0E" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENTS-STACKED-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/PROFILE-AWARD__RACK-0EA5E9?style=for-the-badge&logo=github&logoColor=0B0B0E" />
 </p>
 
-<sub>$ note — trophy/stats cards are free third-party services (Vercel-hosted) and occasionally rate-limit or go down for a few minutes. If a card shows broken here, right-click → open the image URL directly in a new tab: if that also fails, it's the service being down, not your repo — just wait and hard-refresh later. If it loads fine standalone but not on GitHub, it's GitHub's ~30min image cache — hard-refresh (Cmd+Shift+R) fixes it.</sub>
+<table>
+<tr>
+<td><img src="https://img.shields.io/badge/Total%20Stars-1-FFB000?style=flat-square&labelColor=0B0B0E" /></td>
+<td><img src="https://img.shields.io/badge/Total%20Commits-221-7C3AED?style=flat-square&labelColor=0B0B0E" /></td>
+<td><img src="https://img.shields.io/badge/Total%20PRs-1-0EA5E9?style=flat-square&labelColor=0B0B0E" /></td>
+<td><img src="https://img.shields.io/badge/Total%20Issues-0-EC4899?style=flat-square&labelColor=0B0B0E" /></td>
+<td><img src="https://img.shields.io/badge/Contributed%20to-0-22C55E?style=flat-square&labelColor=0B0B0E" /></td>
+</tr>
+</table>
 
-> **`$ debug streak_card`** — if it still shows 0 / empty: GitHub → Settings → Profile → enable **"Include private contributions on my profile"**. The streak service only sees what your public contribution graph shows. GitHub also caches these images ~30 min via its proxy, so hard-refresh after fixing.
+<p align="center">
+  <img src="https://img.shields.io/badge/trophies-unlocked-FFB000?style=for-the-badge&logo=github&logoColor=0B0B0E" />
+  <img src="https://img.shields.io/badge/streak-tracking-7C3AED?style=for-the-badge&logo=firefox&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/profile-telemetry-00C2FF?style=for-the-badge&logo=activitypub&logoColor=0B0B0E" />
+</p>
+
+<p align="center"><sub>$ monitor --stats --trophies &nbsp;·&nbsp; third-party cards can rate-limit, so hard-refresh if the telemetry looks stale</sub></p>
+
+> **`$ debug streak_card`** — if it still shows 0 / empty: GitHub → Settings → Profile → enable **"Include private contributions on my profile"**. The streak service only sees what your public contribution graph shows.
 
 <!-- ================= CONTRIBUTION GRAPH ================= -->
 <p align="center"><img src="./assets/header-contribution-activity.svg" width="55%" /></p>
@@ -227,10 +190,24 @@ flowchart TB
 
 ---
 
-### `$ setup.sh` — do these once in your repo
+### `$ setup.sh` — bootstrap sequence
 
-1. **Create the special repo (if you haven't).** GitHub profile READMEs only render when the repo name matches your username exactly — create `maansi1/maansi1` if it doesn't exist yet.
-2. **Unzip and upload the whole thing.** Extract the zip, then on `github.com/maansi1/maansi1` → **Add file → Upload files** → drag in `README.md` and the entire `assets` folder together, so `assets/banner.svg` etc. sit at the repo root next to the README. Commit directly to `main`.
-3. **Fix the streak card**: GitHub → Settings → Profile → enable *"Include private contributions on my profile"* if most of your work is on private repos.
-4. **Enable the snake animation**: add a workflow using [`Platane/snk`](https://github.com/Platane/snk) to `.github/workflows/` in this repo — it generates and commits `github-contribution-grid-snake-dark.svg` to an `output` branch, which the snake image above points to.
-5. **Swap in real project links** — the featured-project cards above don't have `[View Repo]` links yet; add them once each repo is public, so recruiters can click straight through.
+<p align="center"><img src="./assets/setup-panel.svg" width="96%" alt="Setup sequence panel" /></p>
+
+<table>
+<tr>
+<td>1.</td><td>Keep the repo name exact: <strong>maansi1/maansi1</strong>.</td>
+</tr>
+<tr>
+<td>2.</td><td>Upload <strong>README.md</strong> and the full <strong>assets/</strong> folder together so the SVGs resolve at the repo root.</td>
+</tr>
+<tr>
+<td>3.</td><td>Enable private contributions if your work mostly lives in private repositories.</td>
+</tr>
+<tr>
+<td>4.</td><td>Add the snake workflow under <strong>.github/workflows/</strong> using <strong>Platane/snk</strong>.</td>
+</tr>
+<tr>
+<td>5.</td><td>Replace the placeholder project references with live links once each repo is public.</td>
+</tr>
+</table>

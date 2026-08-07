@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Systems Monitor</title>
+  <desc id="desc">Neon process monitor panel for featured projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050508"/>
+      <stop offset="55%" stop-color="#0d0d13"/>
+      <stop offset="100%" stop-color="#08080b"/>
+    </linearGradient>
+    <linearGradient id="barAmber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#ffb000"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00c2ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="620" rx="20" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="580" rx="16" fill="none" stroke="#ffb000" stroke-opacity="0.25"/>
+  <circle cx="50" cy="46" r="5" fill="#ff5f56"/>
+  <circle cx="68" cy="46" r="5" fill="#ffbd2e"/>
+  <circle cx="86" cy="46" r="5" fill="#27c93f"/>
+  <text x="600" y="48" text-anchor="middle" fill="#7c7c86" font-family="monospace" font-size="16">ps aux --sort=-relevance :: active build monitor</text>
+  <text x="600" y="90" text-anchor="middle" fill="#ffb000" font-family="monospace" font-size="31" font-weight="700" filter="url(#glow)">FEATURED SYSTEMS // LIVE PROCESS MAP</text>
+  <rect x="220" y="104" width="760" height="3" fill="#ffb000" opacity="0.8"/>
+
+  <g font-family="monospace" font-size="18">
+    <rect x="54" y="142" width="1092" height="68" rx="12" fill="#101016" stroke="#ffb000" stroke-opacity="0.12"/>
+    <text x="92" y="182" fill="#c9b389" font-size="20">0113</text>
+    <text x="170" y="176" fill="#ffb000" font-size="24" font-weight="700">meridian-assurance</text>
+    <text x="520" y="175" fill="#e5e7eb" font-size="16">Java21 · SpringBoot · React · Postgres</text>
+    <rect x="885" y="162" width="128" height="28" rx="8" fill="#22c55e"/>
+    <text x="949" y="181" text-anchor="middle" fill="#07110a" font-size="15" font-weight="700">RUN 72%</text>
+    <rect x="1025" y="162" width="95" height="28" rx="8" fill="#ffb000"/>
+    <text x="1073" y="181" text-anchor="middle" fill="#0b0b0e" font-size="15" font-weight="700">███████</text>
+  </g>
+
+  <g font-family="monospace" font-size="18">
+    <rect x="54" y="222" width="1092" height="68" rx="12" fill="#101016" stroke="#7c3aed" stroke-opacity="0.12"/>
+    <text x="92" y="262" fill="#c9b389" font-size="20">0092</text>
+    <text x="170" y="256" fill="#7c3aed" font-size="24" font-weight="700">smart-patient-health-tracker</text>
+    <text x="520" y="255" fill="#e5e7eb" font-size="16">Kotlin · Android · Firebase · AI</text>
+    <rect x="885" y="242" width="128" height="28" rx="8" fill="#00c2ff"/>
+    <text x="949" y="261" text-anchor="middle" fill="#07110a" font-size="15" font-weight="700">RUN 91%</text>
+    <rect x="1025" y="242" width="95" height="28" rx="8" fill="#7c3aed"/>
+    <text x="1073" y="261" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">████████</text>
+  </g>
+
+  <g font-family="monospace" font-size="18">
+    <rect x="54" y="302" width="1092" height="68" rx="12" fill="#101016" stroke="#ff7a00" stroke-opacity="0.12"/>
+    <text x="92" y="342" fill="#c9b389" font-size="20">0071</text>
+    <text x="170" y="336" fill="#ff7a00" font-size="24" font-weight="700">ai-investment-research-agent</text>
+    <text x="520" y="335" fill="#e5e7eb" font-size="16">LangGraph.js · Gemini · Node · Recharts</text>
+    <rect x="885" y="322" width="128" height="28" rx="8" fill="#6b7280"/>
+    <text x="949" y="341" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">SLEEP 100%</text>
+    <rect x="1025" y="322" width="95" height="28" rx="8" fill="#ff7a00"/>
+    <text x="1073" y="341" text-anchor="middle" fill="#0b0b0e" font-size="15" font-weight="700">████████</text>
+  </g>
+
+  <g font-family="monospace" font-size="18">
+    <rect x="54" y="382" width="1092" height="68" rx="12" fill="#101016" stroke="#f59e0b" stroke-opacity="0.12"/>
+    <text x="92" y="422" fill="#c9b389" font-size="20">0064</text>
+    <text x="170" y="416" fill="#f59e0b" font-size="24" font-weight="700">ai-code-review-assistant</text>
+    <text x="520" y="415" fill="#e5e7eb" font-size="16">SpringBoot · React · OpenAI · Neon</text>
+    <rect x="885" y="402" width="128" height="28" rx="8" fill="#6b7280"/>
+    <text x="949" y="421" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">SLEEP 100%</text>
+    <rect x="1025" y="402" width="95" height="28" rx="8" fill="#f59e0b"/>
+    <text x="1073" y="421" text-anchor="middle" fill="#0b0b0e" font-size="15" font-weight="700">████████</text>
+  </g>
+
+  <g font-family="monospace" font-size="18">
+    <rect x="54" y="462" width="1092" height="68" rx="12" fill="#101016" stroke="#22c55e" stroke-opacity="0.12"/>
+    <text x="92" y="502" fill="#c9b389" font-size="20">0050</text>
+    <text x="170" y="496" fill="#22c55e" font-size="24" font-weight="700">shared-expenses-tracker</text>
+    <text x="520" y="495" fill="#e5e7eb" font-size="16">Node · TS · Prisma · Postgres · React</text>
+    <rect x="885" y="482" width="128" height="28" rx="8" fill="#6b7280"/>
+    <text x="949" y="501" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">SLEEP 100%</text>
+    <rect x="1025" y="482" width="95" height="28" rx="8" fill="#22c55e"/>
+    <text x="1073" y="501" text-anchor="middle" fill="#0b0b0e" font-size="15" font-weight="700">████████</text>
+  </g>
+
+  <rect x="74" y="548" width="1052" height="2" fill="#ffb000" opacity="0.16"/>
+  <text x="600" y="580" text-anchor="middle" fill="#7c7c86" font-family="monospace" font-size="14">bugforge-assessment · Next.js · Express · MongoDB · ZOMB 100%</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Setup Sequence Panel</title>
+  <desc id="desc">Neon bootstrap panel for setup instructions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070a"/>
+      <stop offset="100%" stop-color="#101018"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#ffb000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="284" rx="14" fill="none" stroke="#00c2ff" stroke-opacity="0.2"/>
+  <circle cx="48" cy="44" r="5" fill="#ff5f56"/>
+  <circle cx="66" cy="44" r="5" fill="#ffbd2e"/>
+  <circle cx="84" cy="44" r="5" fill="#27c93f"/>
+  <text x="600" y="48" text-anchor="middle" fill="#7c7c86" font-family="monospace" font-size="16">setup.sh :: bootstrap sequence</text>
+  <text x="600" y="90" text-anchor="middle" fill="#00c2ff" font-family="monospace" font-size="30" font-weight="700">INITIALIZE PROFILE PAYLOAD</text>
+  <rect x="268" y="104" width="664" height="3" fill="url(#amber)" opacity="0.9"/>
+
+  <g font-family="monospace" font-size="18" font-weight="700">
+    <rect x="84" y="138" width="290" height="54" rx="12" fill="#ffb000"/>
+    <text x="229" y="170" text-anchor="middle" fill="#0b0b0e">01  CREATE REPO</text>
+
+    <rect x="412" y="138" width="290" height="54" rx="12" fill="#7c3aed"/>
+    <text x="557" y="170" text-anchor="middle" fill="#ffffff">02  UPLOAD ASSETS</text>
+
+    <rect x="740" y="138" width="290" height="54" rx="12" fill="#00c2ff"/>
+    <text x="885" y="170" text-anchor="middle" fill="#0b0b0e">03  ENABLE SIGNALS</text>
+  </g>
+
+  <g font-family="monospace" font-size="16">
+    <rect x="84" y="220" width="1030" height="54" rx="12" fill="#0b0b0f" stroke="#ffb000" stroke-opacity="0.18"/>
+    <text x="110" y="251" fill="#ffb000">$ gh repo create maansi1/maansi1 --public</text>
+    <text x="580" y="251" fill="#c9b389"># README.md + assets/ at repo root</text>
+    <text x="980" y="251" fill="#7c7c86"># snake + trophies + links</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="1200" height="18" viewBox="0 0 1200 18" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB000" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFB000" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="8" width="1200" height="1" fill="#2A2212"/>
+  <rect x="-200" y="7" width="200" height="3" fill="url(#pulseGrad)">
+    <animate attributeName="x" values="-200;1200" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#5A4820">
+    <text x="0" y="6">0x00</text>
+    <text x="1176" y="6" text-anchor="end">0xFF</text>
+  </g>
+</svg>

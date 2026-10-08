@@ -150,6 +150,23 @@
 
 > **`$ debug streak_card`** — if it still shows 0 / empty: GitHub → Settings → Profile → enable **"Include private contributions on my profile"**. The streak service only sees what your public contribution graph shows.
 
+<!-- ================= LEETCODE ACHIEVEMENTS ================= -->
+<p align="center">
+  <a href="https://leetcode.com/u/maansi12/">
+    <img src="https://img.shields.io/badge/LEETCODE-ACHIEVEMENTS-FFB000?style=for-the-badge&amp;logo=leetcode&amp;logoColor=0B0B0E&amp;labelColor=0B0B0E" alt="LeetCode Achievements" />
+  </a>
+</p>
+
+<p align="center"><sub>$ leetcode --badges --user maansi12 &nbsp;·&nbsp; earned milestones and coding consistency</sub></p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/maansi12/">
+    <img src="https://leetcode-badge-showcase.vercel.app/api?username=maansi12&amp;theme=dark&amp;animated=true&amp;border=no-border" alt="Maansi's LeetCode achievement badges" />
+  </a>
+</p>
+
+<img src="./assets/divider.svg" width="100%" />
+
 <!-- ================= CONTRIBUTION GRAPH ================= -->
 <p align="center"><img src="./assets/header-contribution-activity.svg" width="55%" /></p>
 
